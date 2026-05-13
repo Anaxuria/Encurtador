@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue-base: #2c46b1;
+  --color-blue-dark: #2c4091;
+
+  --color-gray-100: #f9f9fb;
+  --color-gray-200: #e4e6ec;
+  --color-gray-300: #cdcfd5;
+  --color-gray-400: #74798b;
+  --color-gray-500: #4d505c;
+  --color-gray-600: #1f2025;
+
+  --color-danger: #b12c4d;
+}
+
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+.etext-xl {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.etext-lg {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.etext-md {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.etext-mdr {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.etext-sm {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.etext-smb {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+.etext-xs {
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
